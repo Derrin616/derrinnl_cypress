@@ -1,0 +1,23 @@
+{
+    "viewportWidth": 2000,
+    "viewportHeight": 1200,
+    "blockHosts": [
+      "*.google-analytics.com",
+      "*.googletagmanager.com",
+      "*.hotjar.com"
+    ],
+    "numTestsKeptInMemory": 50,
+    "chromeWebSecurity": false,
+    "userAgent": "Derrin616 Testing platfom - v1",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": true,
+            "html": true,
+            "json": false
+        }
+    }
+  }
